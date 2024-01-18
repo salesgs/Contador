@@ -4,11 +4,11 @@
 
 ## Esse projeto visa por em prática:
 
-### 1- Manipulação do DOM com JS
+### 1- Manipulação do DOM com JS.
 ### 2- Exploraração dos recursos do SASS COMO :
     #### NESTING MIXIN e MINIFY
 
-### 3- Aplicação do Bootstrap com CSS 
+### 3- Aplicação do Bootstrap com CSS. 
 
 #### TECNOLOGIAS UTILIZADAS NO PROJETO 
 
