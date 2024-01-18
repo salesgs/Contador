@@ -30,18 +30,18 @@
 
 ### 1-ARQUIVO |script.js|
 
-### - No arquivo princiapl  |"script.js"|   importaremos as funções dinâmicas para interação com o DOM (Document Object Model).Na imagem abaixo estamos capturando com o "querySelector" o elemento "button" pela sua classe ".decrement". Logo após armazenamos numa variável.  
+### - No arquivo princiapl  |"script.js"|   importaremos as funções dinâmicas para interação com o DOM (Document Object Model). Na imagem abaixo, estamos capturando com o "querySelector" o elemento "button" pela sua classe ".decrement". Logo após armazenamos numa variável.  
 
-### - Esse botão recebe um ouvinte de eventos , "listeners". Ao clicar sobre o botão, a função decrement que foi importada será executada externa ao arquivo. E o valor será decrementado
+### - Esse botão recebe um ouvinte de eventos , "listeners". Ao clicar sobre o botão, a função decrement que foi importada para o arquivo principal |script.js| será executada externa ao arquivo. E o valor será decrementado.
 
 ![code](https://github.com/salesgs/Contador/assets/93557539/2284416a-df0d-4e67-badb-e3abe8e7c5a5)
 <br><br><br><br>
 
 ### 2- ARQUIVO |decrement.js|
 
-### - Abaixo capturamos o H3 com o "querySelector()".
+### - Abaixo capturamos o elemento H3 com o "querySelector()".
 
-### - convertemos o valor de "string" que está no innerText  para "number".
+### - convertemos o valor de "string" que está no innerText "conteúdo do elemento"  para "number".
 
 ### - Por fim, aplicamos no atributo "innerTexto do h3" a regra de négocio para decrementar o valor. 
 
@@ -61,7 +61,7 @@
 ![image](https://github.com/salesgs/Contador/assets/93557539/915f1bea-d84d-4a61-af24-48b1d2354330)
 
 ## 2- Arquivo | font.scss | 
-### - Dentro desse arquivo temos a função mixin. Essa função recebe como parâmetro variáveis precedidas do sinal "$". Elas representam os valores que serão passados para as propriedades de estilo dos elementos.
+### - Dentro desse arquivo temos a função "mixin style-fonts". Essa função recebe como parâmetro variáveis precedidas do sinal "$". Elas representam os valores que serão passados para as propriedades de estilo dos elementos.
 
 ![code](https://github.com/salesgs/Contador/assets/93557539/3422b9a9-5931-4785-8236-7d884870f590)
 
