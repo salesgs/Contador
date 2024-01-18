@@ -1,4 +1,4 @@
-# CONTADOR DINÂMICO COM  ![Logo](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+## CONTADOR DINÂMICO COM  ![Logo](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 
 
@@ -21,4 +21,13 @@
 ![Logo](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ![Logo](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+![image](https://github.com/salesgs/Contador/assets/93557539/6480e720-d30c-42ce-9e78-5d57a931e1da)
+
+## FUNCIONALIDADES DO PROJETO COM  ![Logo](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+### 1-DECREMENTANDO VALOR
+![code](https://github.com/salesgs/Contador/assets/93557539/2284416a-df0d-4e67-badb-e3abe8e7c5a5)
+
+#### - Esse botão recebe um ouvinte de eventos , "listeners". Ao clicar sobre o botão, a função decrement que foi importada será executada externa ao arquivo. E o valor será decrementado
 
