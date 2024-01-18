@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*imporando mixing */
+.containe {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.containe header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+}
+.containe .main {
+  flex-grow: 2;
+}
+.containe .main .components-1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 42px;
+}
+.containe .main div {
+  text-align: center;
+}
+.containe .main div .h1-style {
+  color: #0012ff;
+  font-weight: bold;
+}
+.containe .main div .h3-style {
+  color: #11ff11;
+  font-weight: 700;
+}
+.containe .main .components-2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+}
+.containe .main .components-2 .decrement {
+  color: #000;
+}
+.containe .main .components-2 .reset {
+  color: #000;
+}
+.containe .main .components-2 .increment {
+  color: #000;
+}
+
+.item {
+  flex-basis: 80px;
+}
+
+/*# sourceMappingURL=style.css.map */

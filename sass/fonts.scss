@@ -1,0 +1,4 @@
+@mixin style-fonts($color,$font-weight){
+  color:$color;
+  font-weight: $font-weight;
+}

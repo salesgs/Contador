@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@import "./fonts.scss"; /*imporando mixing */
+
+.containe{
+  background-color: #fff;
+  min-height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+ header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-grow: 2;  
+}
+.main{
+  flex-grow: 2;
+  .components-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 42px;
+  }
+  div{
+    text-align: center;
+    .h1-style{
+      @include style-fonts(#0012ff,bold);
+    }
+    .h3-style{
+      @include style-fonts(#11ff11,700);
+    }
+  }
+  .components-2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-transform: uppercase;    
+   .decrement{
+     color: #000;
+   }
+   .reset{
+    color: #000;   
+   }
+   .increment{
+    color: #000;
+   }
+  
+  }  
+}
+}
+.item{
+  flex-basis: 80px;
+}
