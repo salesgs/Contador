@@ -61,7 +61,7 @@
   flex-basis: 80px;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 410px) {
   .components-2 {
     flex-direction: column;
     align-items: center;
