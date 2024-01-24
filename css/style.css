@@ -19,6 +19,10 @@
 .containe .main {
   flex-grow: 2;
 }
+.containe .main .main__buttons {
+  display: flex;
+  justify-content: center;
+}
 .containe .main .components-1 {
   display: flex;
   justify-content: center;
@@ -36,8 +40,9 @@
   font-weight: 700;
 }
 .containe .main .components-2 {
+  width: 450px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
   text-transform: uppercase;
@@ -54,6 +59,13 @@
 
 .item {
   flex-basis: 80px;
+}
+
+@media (max-width: 350px) {
+  .components-2 {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
